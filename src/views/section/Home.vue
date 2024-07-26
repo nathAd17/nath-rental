@@ -69,7 +69,7 @@
                 </div>
                 <!-- ux class -->
                 <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"
-                    class="absolute bottom-12 -left-4 sm:left-2 sm:bottom-20 lg:bottom-24 lg:-left-4 floating">
+                    class="absolute bottom-12 -left-4 sm:left-2 sm:bottom-28 lg:bottom-32 md:left-10 floating">
                     <div class=" hover:scale-110 transition-all ease-in-out duration-500">
                         <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-2">
                             <div class="flex-shrink-0">
@@ -91,7 +91,7 @@
                 </div>
                 <!-- harga -->
                 <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"
-                    class="absolute top-4 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
+                    class="absolute bottom-72 md:bottom-44 -right-6 md:right-8 floating-4">
                     <div class=" hover:scale-110 transition-all ease-in-out duration-500">
                         <div class="bg-white px-4 py-1 rounded-lg shadow-lg flex items-center space-x-2">
                             <div class="flex-shrink-0">
