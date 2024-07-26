@@ -34,8 +34,8 @@ onUnmounted(() => {
 });
 </script>
 <template>
-    <nav class="bg-[#04e762] border-gray-200">
-        <div class="lg:max-w-screen-xl absolute inset-x-0 flex flex-wrap items-center justify-between mx-auto p-4 z-[9999]">
+    <nav class="bg-[#04e762] border-gray-200 mx-4">
+        <div class="lg:max-w-screen-xl absolute inset-x-0 flex flex-wrap items-center justify-between mx-auto py-4 px-8 z-[9999]">
             <a aria-label="icon-rental" title="beranda" href="/rental_mobil/hal/index.php"
                 class="text-2xl relative z-50 px-4 font-bold  text-sky-950 font-poppins rounded-lg focus:outline-none focus:shadow-outline">
                 Nath Rental </a>

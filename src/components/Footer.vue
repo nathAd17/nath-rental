@@ -1,5 +1,5 @@
 <template>
-    <section class="relative mt-8 bg-cream font-rubik">
+    <section class="relative  bg-cream font-rubik mt-14">
         <svg class="absolute top-0 w-full left-0 h-6 -mt-5 sm:-mt-10 sm:h-16 text-cream" preserveAspectRatio="none"
             viewBox="0 0 1440 54">
             <path fill="currentColor"
@@ -17,25 +17,25 @@
             </svg>
         </span>
         <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  py-14 lg:px-8 mx-auto relative bg-cream">
-            <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 text-center md:text-left">
                 <div class="sm:col-span-2">
                     <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
                         <span class="text-xl font-bold tracking-wide text-sky-950 uppercase">Nath Rental</span>
                     </a>
-                    <div class="mt-2 lg:max-w-sm">
-                        <p class="text-sm text-gray-800 capitalize">
+                    <div class="mt-2 lg:max-w-sm px-2 md:px-0">
+                        <p class="text-sm text-center md:text-left text-gray-800 capitalize">
                             {{ deskripsi_rental}}
                         </p>
                     </div>
                 </div>
                 <div class="space-y-2 text-sm">
                     <p class="text-base font-bold tracking-wide text-sky-950">Contacts</p>
-                    <div class="flex">
+                    <div class="flex md:justify-start justify-center">
                         <p class="mr-1 text-gray-800">Phone:</p>
                         <a :href="`tel: `+ kontak_rental" target="_blank" aria-label="Our phone" title="Our phone"
                             class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">{{kontak_rental}}</a>
                     </div>
-                    <div class="flex">
+                    <div class="flex md:justify-start justify-center">
                         <p class="mr-1 text-gray-800">Address:</p>
                         <a :href="maps_rental" target="_blank" rel="noopener noreferrer" aria-label="Our address"
                             title="Our address"
@@ -46,7 +46,7 @@
                 </div>
                 <div>
                     <span class="text-base font-bold tracking-wide text-sky-950">Social</span>
-                    <div class="flex items-center mt-1 space-x-3">
+                    <div class="flex items-center md:justify-normal justify-center mt-1 space-x-3">
 
                         <a target="_blank" v-for="medsos in mediaSosial" :key="medsos.label" :href="medsos.link"
                             class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
@@ -56,13 +56,13 @@
                 </div>
             </div>
             <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-                <p class="text-sm text-gray-900">
+                <p class="text-sm text-gray-900 text-center">
                     © Copyright <span>{{ new Date().getFullYear() }}</span> Lorem Inc. All rights reserved.
                 </p>
-                <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+                <ul class="flex mb-3 lg:mb-0 sm:space-y-0 sm:space-x-5 flex-row justify-center items-center gap-4 md:gap-0">
                     <li v-for="menu in menus" :key="menu.label">
                         <a :href="menu.route"
-                            class="text-sm text-gray-900 transition-colors duration-300 hover:text-deep-purple-accent-400">{{menu.label}}</a>
+                            class="text-sm text-gray-900 transition-colors duration-300 hover:text-gray-500">{{menu.label}}</a>
                     </li>
                 </ul>
             </div>

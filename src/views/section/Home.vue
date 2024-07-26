@@ -1,14 +1,14 @@
 <template>
     <section id="home" class="bg-cream font-poppins">
-        <div class="lg:max-w-screen-xl px-8 py-28 gap-8 mx-auto flex flex-col lg:flex-row items-start">
+        <div class="lg:max-w-screen-xl px-12 py-28 gap-8 mx-auto flex flex-col lg:flex-row items-start">
             <!--Left Col-->
             <div
-                class="flex flex-col mx-auto w-full lg:w-6/12 justify-center lg:pt-24 items-center md:items-start text-center lg:text-left mb-5 md:mb-0">
+                class="flex flex-col mx-auto w-full lg:w-6/12 justify-center lg:pt-24 items-center md:items-start text-center lg:text-left mb-2 md:mb-0">
                 <h1 data-aos="fade-right" data-aos-once="true"
-                    class="my-4 text-5xl font-bold leading-tight text-darken">
+                    class="my-4 text-4xl md:text-5xl font-bold leading-tight text-darken">
                     <span class="text-[#213363] font-bold">Rent Car</span><br> Self Drive
                 </h1>
-                <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">
+                <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-lg md:text-2xl mb-8">
                     Your Comfort is Our Proud Priority</p>
                 <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700"
                     class="w-full md:flex items-center justify-start md:space-x-5 z-50">
@@ -31,12 +31,12 @@
                 </div>
             </div>
             <!--Right Col-->
-            <div class="w-full lg:w-[52%] -mr-10 lg:-mt-10 relative float-right" id="car">
+            <div class="w-full lg:w-[52%] -mr-10 lg:-mt-10 mt-2 relative float-right" id="car">
                 <img data-aos="fade-up" aria-label="rental mobil kupang" alt="gambar utama rental mobil kupang"
-                    data-aos-once="true" class="w-max py-32 mx-auto 2xl:-mb-20" src="/assets/img/fortunerBg.png" />
+                    data-aos-once="true" class="w-max py-16 md:py-32 mx-auto 2xl:-mb-20" src="/assets/img/fortunerBg.png" />
                 <!-- buka 24 jam -->
                 <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true"
-                    class="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
+                    class="absolute top-12 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4">
                     <div class=" hover:scale-110 transition-all ease-in-out duration-500">
                         <div class="bg-white px-2 py-1 rounded-lg shadow-lg flex items-center space-x-2">
                             <div class="flex-shrink-0">
@@ -55,21 +55,21 @@
 
                             </div>
                             <div class="w-16">
-                                <p class="text-lg font-semibold font-poppins text-sky-900 text-wrap">Open 24h</p>
+                                <p class="text-base font-semibold font-poppins text-sky-900 text-wrap">Open 24h</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- red -->
                 <div data-aos="fade-up" data-aos-delay="400" data-aos-once="true"
-                    class="absolute bottom-32 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating">
+                    class="absolute bottom-28 right-0 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating">
 
                     <img class="rounded-lg h-12 sm:h-16 hover:scale-110 transition-all ease-in-out duration-500"
                         aria-label="rental mobil kupang" src="/assets/clip/car1.svg" alt="mobil rental mobil kupang">
                 </div>
                 <!-- ux class -->
                 <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"
-                    class="absolute bottom-40 -left-4 sm:left-2 sm:bottom-20 lg:bottom-24 lg:-left-4 floating">
+                    class="absolute bottom-12 -left-4 sm:left-2 sm:bottom-20 lg:bottom-24 lg:-left-4 floating">
                     <div class=" hover:scale-110 transition-all ease-in-out duration-500">
                         <div class="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-2">
                             <div class="flex-shrink-0">
@@ -81,7 +81,7 @@
 
                             </div>
                             <div>
-                                <div class="text-lg font-semibold font-poppins text-sky-900">Friendly service</div>
+                                <div class="text-base font-semibold font-poppins text-sky-900">Friendly service</div>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                 </div>
                 <!-- harga -->
                 <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"
-                    class="absolute top-36 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
+                    class="absolute top-4 md:bottom-48 lg:bottom-52 -right-6 lg:right-8 floating-4">
                     <div class=" hover:scale-110 transition-all ease-in-out duration-500">
                         <div class="bg-white px-4 py-1 rounded-lg shadow-lg flex items-center space-x-2">
                             <div class="flex-shrink-0">
@@ -102,7 +102,7 @@
                                 </svg>
                             </div>
                             <div class="w-24">
-                                <p class="text-lg font-semibold font-poppins text-sky-900 text-wrap">Affordable prices
+                                <p class="text-base font-semibold font-poppins text-sky-900 text-wrap">Affordable prices
 
                                 </p>
                             </div>

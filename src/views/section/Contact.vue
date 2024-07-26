@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="relative lg:py-10 bg-gray-50">
+    <section id="contact" class="relative lg:py-10 bg-gray-50 mx-4">
         <div class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8">
             <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl text-center">
                 <h2 data-aos="fade-up"
@@ -16,7 +16,7 @@
         <div
             class="flex flex-col items-center justify-between lg:p-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:px-5 lg:flex-row">
             <div class="flex flex-col items-center w-full py-8 px-6 lg:flex-row bg-sky-900 rounded-[2rem] gap-6">
-                <div class="w-full relative max-w-md lg:max-w-2xl lg:w-7/12 px-2 md:px-4">
+                <div class="w-full relative max-w-md lg:max-w-2xl lg:w-6/12 px-2 md:px-4">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.1252727486979!2d123.593518099862!3d-10.1757912488839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569d42d7e53af9%3A0xb2ac3bd6b199c75f!2sBETA%20RENTAL%20MOBIL%20KUANINO!5e0!3m2!1sid!2sid!4v1721925263069!5m2!1sid!2sid"
                         loading="lazy" class="rounded-lg md:h-[31.25rem] h-80 w-full"></iframe>

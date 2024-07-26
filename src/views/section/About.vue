@@ -13,10 +13,10 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="about" class="about relative rounded-[2rem] mx-4 sm:mx-20">
+    <section id="about" class="about relative rounded-[2rem] mx-4">
         <div
             class="container px-4 my-4 md:my-10 py-8 lg:max-w-screen-xl sm:max-w-xl md:max-w-full lg:px-8 mx-auto text-gray-700 relative">
-            <div class="py-4 mx-2 sm:max-w-xl  md:max-w-full lg:max-w-screen-xl lg:py-6 relative">
+            <div class="py-4 mx-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:py-6 relative">
                 <!-- trusted by -->
                 <!-- <div class="title text-center z-10 relative">
                     <h1 class="text-2xl font-bold text-sky-950">Nath Rent Car</h1>
@@ -47,7 +47,8 @@ onMounted(() => {
                         </h2>
                     </div>
                     <div class="desc md:w-1/2 w-full mx-auto">
-                        <p data-aos="fade-down" class="mb-2 text-sm md:text-lg font-normal leading-relaxed font-roboto text-center text-sky-950">
+                        <p data-aos="fade-down"
+                            class="mb-2 text-sm md:text-lg font-normal leading-relaxed font-roboto text-center text-sky-950">
                             With unwavering quality, reliability, and sincere service, we're with you every
                             kilometer,making memories at every turn.
                         </p>
@@ -56,16 +57,18 @@ onMounted(() => {
 
             </div>
             <div class="md:max-w-5xl w-full my-5 mx-auto carousel-container px-1">
-                <h1 class="text-center text-xl md:text-2xl mb-4 ml-2 font-semibold text-sky-950 font-rubik">Our Collection
+                <h1 class="text-center text-xl md:text-2xl mb-4 ml-2 font-semibold text-sky-950 font-rubik">Our
+                    Collection
                 </h1>
                 <CarChoice />
             </div>
 
             <!-- MENGAPA BTL RENTAL. -->
-            <div data-aos="flip-up" class="lg:max-w-screen-lg mx-auto text-center sm:mt-24 mt-10 relative">
+            <div data-aos="flip-up" class="lg:max-w-screen-xl mx-auto text-center sm:mt-24 mt-10 relative">
                 <h1 class="font-bold font-rubik text-sky-950 my-3 text-xl md:text-3xl">Why Choose Us?
                 </h1>
-                <p class="leading-relaxed text-sm md:text-lg  font-roboto text-sky-900">"Quality, Convenience, and Safety: Reasons to Choose
+                <p class="leading-relaxed text-sm md:text-lg  font-roboto text-sky-900">"Quality, Convenience, and
+                    Safety: Reasons to Choose
                     Nath Rent
                     Car."</p>
                 <span class="absolute top-12 left-24 z-50 hidden w-32 text-gray-900 lg:w-32 sm:block">
