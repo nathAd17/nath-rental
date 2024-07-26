@@ -28,7 +28,8 @@
                         </h2>
                     </div>
                     <div class="desc w-full md:w-1/2 mx-auto">
-                        <p data-aos="fade-down" class="mb-2 text-sm md:text-lg font-normal font-roboto text-center text-sky-950">
+                        <p data-aos="fade-down"
+                            class="mb-2 text-sm md:text-lg font-normal leading-relaxed font-roboto text-center text-sky-950">
                             Discover our wide range of services designed to provide the best solutions for your mobility
                             needs, featuring a fleet
                             of high-quality vehicles.
@@ -46,18 +47,6 @@
                         </svg>
                     </span>
                 </div>
-                <!-- <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl text-center">
-                
-                <h3 class="text-xl font-semibold text-sky-950">Nath Rent Car </h3>
-                <h2 data-aos="fade-up"
-                    class="mb-6 font-rubik text-3xl font-bold tracking-tight text-sky-900 sm:text-4xl sm:leading-none">
-                    Explore Services
-                </h2>
-                <p data-aos="fade-down" class="mb-6 text-base font-roboto text-sky-800 md:text-lg"> Discover our wide
-                    range of
-                    services designed to provide the best solutions for your mobility needs, featuring a fleet of
-                    high-quality vehicles. </p>
-            </div> -->
             </div>
             <div class="md:gap-10 sm:mx-8 lg:mx-auto lg:grid-cols-3 lg:max-w-screen-xl grid grid-cols-2 gap-2 mx-2">
                 <div v-for="car in cars" :key="car.id" data-aos="zoom-in"
@@ -68,13 +57,13 @@
                             alt="layanan rental mobil kupang" />
                     </div>
                     <div class="font-poppins flex flex-col gap-4 text-center">
-                        <p class="text-lg font-bold text-sky-900 uppercase">
+                        <p class="text-base md:text-lg font-bold text-sky-900 uppercase">
                             {{ car.name}}
                         </p>
                         <p class="mb-2 text-xs font-semibold text-sky-900 capitalize">IN CITY/SELF DRIVE</p>
 
                         <Button label="Booking" @click="showModal(car)"
-                            class="bg-cream hover:bg-creamhover text-gray-100 font-poppins" />
+                            class="bg-cream hover:bg-creamhover text-gray-100 font-poppins py-0 text-base" :pt="{root: 'py-2 rounded-t-md'}"/>
                     </div>
                 </div>
                 <Dialog v-model:visible="mobil" modal header="Car Reservation"
@@ -91,7 +80,7 @@
                                     title="rental mobil kupang" width="500" alt="layanan rental mobil kupang" />
                             </div>
                             <div class="w-full">
-                                <h2 class="sm:pr-12 text-xl font-rubik text-sky-900 font-semibold capitalize">select
+                                <h2 class="sm:pr-12 text-base md:text-xl font-rubik text-sky-900 font-semibold capitalize">select
                                     service
                                 </h2>
                                 <section aria-labelledby="options-heading" class="mt-1">
@@ -151,7 +140,7 @@
                                     </div>
                                     <!-- button cart & buy -->
                                     <h2
-                                        class="text-sky-900 sm:text-left font-rubik text-center my-2 text-lg font-semibold">
+                                        class="text-sky-900 sm:text-left font-rubik text-center my-2 text-base md:text-lg font-semibold">
                                         Contact Admin to Rent Now
                                     </h2>
                                     <div class="item-center flex mt-1">
@@ -270,7 +259,7 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 180px;
+        width: 150px;
         min-height: 100px;
         border-radius: 0.5rem;
         border: 2px solid #b5bfd9;
@@ -288,7 +277,6 @@ export default {
             justify-content: center;
             align-items: center;
             flex-direction: row;
-            flex-wrap: wrap;
         }
     }
 
