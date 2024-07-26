@@ -1,5 +1,5 @@
 <template>
-    <section id="services" class="relative bg-gray-50 my-4 md:my-10 mx-4 font-poppins">
+    <section id="services" class="relative bg-gray-50 my-4 md:my-10 mx-1 md:mx-4 font-poppins">
         <div class="container px-4 my-4 md:my-10 py-8 lg:max-w-screen-xl lg:px-8 mx-auto text-gray-700 relative">
             <div class="py-3 mx-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:py-6 relative sm:mx-auto">
                 <div class="clip absolute top-4 left-0 md:block hidden">
