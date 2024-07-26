@@ -16,12 +16,12 @@
         <div
             class="flex flex-col items-center justify-between lg:p-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl xl:px-5 lg:flex-row">
             <div class="flex flex-col items-center w-full py-8 px-6 lg:flex-row bg-sky-900 rounded-[2rem] gap-6">
-                <div class="w-full relative max-w-md lg:max-w-2xl lg:w-7/12 px-4">
+                <div class="w-full relative max-w-md lg:max-w-2xl lg:w-7/12 px-2 md:px-4">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.1252727486979!2d123.593518099862!3d-10.1757912488839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569d42d7e53af9%3A0xb2ac3bd6b199c75f!2sBETA%20RENTAL%20MOBIL%20KUANINO!5e0!3m2!1sid!2sid!4v1721925263069!5m2!1sid!2sid"
-                        loading="lazy" height="525" class="rounded-lg w-full"></iframe>
+                        loading="lazy" class="rounded-lg md:h-[31.25rem] h-80 w-full"></iframe>
                 </div>
-                <div class="w-full relative z-10 max-w-2xl lg:mt-0 lg:w-5/12 px-4">
+                <div class="w-full relative z-10 max-w-2xl lg:mt-0 lg:w-5/12 px-2 md:px-4">
                     <div data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="200"
                         class="flex flex-col items-start m-0 justify-start p-4 bg-white shadow-2xl rounded-xl relative">
                         <form action="../src/pengunjung.php" class="w-full z-50" method="post">
@@ -52,7 +52,7 @@
                                     <label for="nama_pengunjung" class="bg-white py-0 px-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
                   absolute">Full Name</label>
                                     <input placeholder="John" id="nama_pengunjung" type="text" name="nama_pengunjung"
-                                        class="border placeholder-gray-400 focus:outline-none
+                                        class="border placeholder-gray-400 p-2 focus:outline-none
                   focus:border-black w-full lg:p-4 mt-2 mx-0 mb-0 text-base block bg-white
                   border-gray-300 rounded-md" required />
                                 </div>
@@ -60,7 +60,7 @@
                                     <label for="email_pengunjung"
                                         class="bg-white py-0 px-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600 absolute">Email</label>
                                     <input placeholder="name@mail" name="email_pengunjung" id="email_pengunjung"
-                                        type="text" class="border placeholder-gray-400 focus:outline-none
+                                        type="text" class="border p-2 placeholder-gray-400 focus:outline-none
                   focus:border-black w-full lg:p-4 mt-2 mx-0 mb-0 text-base block bg-white
                   border-gray-300 rounded-md" required />
                                 </div>
