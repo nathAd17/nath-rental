@@ -1,6 +1,6 @@
 <template>
-    <section class="relative  bg-cream font-rubik mt-14">
-        <svg class="absolute top-0 w-full left-0 h-6 -mt-5 sm:-mt-10 sm:h-16 text-cream" preserveAspectRatio="none"
+    <section class="relative  bg-primary font-rubik mt-14">
+        <svg class="absolute top-0 w-full left-0 h-6 -mt-5 sm:-mt-10 sm:h-16 text-primary" preserveAspectRatio="none"
             viewBox="0 0 1440 54">
             <path fill="currentColor"
                 d="M0 22L120 16.7C240 11 480 1.00001 720 0.700012C960 1.00001 1200 11 1320 16.7L1440 22V54H1320C1200 54 960 54 720 54C480 54 240 54 120 54H0V22Z">
@@ -16,7 +16,7 @@
                 <rect fill="url(#b039bae0-fdd5-4311-b198-8557b064fce0)" width="52" height="24"></rect>
             </svg>
         </span>
-        <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  py-14 lg:px-8 mx-auto relative bg-cream">
+        <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  py-14 lg:px-8 mx-auto relative bg-primary">
             <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 text-center md:text-left">
                 <div class="sm:col-span-2">
                     <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">

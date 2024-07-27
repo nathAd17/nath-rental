@@ -1,33 +1,33 @@
 <template>
-    <section id="home" class="bg-cream font-poppins">
+    <section id="home" class="bg-primary font-poppins">
         <div class="lg:max-w-screen-xl px-12 py-28 gap-8 mx-auto flex flex-col lg:flex-row items-start">
             <!--Left Col-->
             <div
                 class="flex flex-col mx-auto w-full lg:w-6/12 justify-center lg:pt-24 items-center md:items-start text-center lg:text-left mb-2 md:mb-0">
                 <h1 data-aos="fade-right" data-aos-once="true"
-                    class="my-4 text-4xl md:text-5xl font-bold leading-tight text-darken">
+                    class="my-4 text-4xl md:text-5xl font-bold leading-tight text-gray-800">
                     <span class="text-[#213363] font-bold">Rent Car</span><br> Self Drive
                 </h1>
                 <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-lg md:text-2xl mb-8">
                     Your Comfort is Our Proud Priority</p>
                 <div data-aos="fade-up" data-aos-once="true" data-aos-delay="700"
                     class="w-full md:flex items-center justify-start md:space-x-5 z-50">
-                    <a href="layanan.php"
-                        class="lg:mx-0 bg-[#FFFFDD] text-darken text-sm md:text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out"
+                    <a href="#services"
+                        class="lg:mx-0 bg-cream text-gray-800 text-sm md:text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out"
                         title="layanan rental mobil kupang" aria-label="layanan rental mobil kupang">
                         Booking Now </a>
-                    <div
+                    <a href="#contact"
                         class="flex items-center justify-center space-x-3 mt-8 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                        <a href="kontak.php" title="kontak rental mobil kupang" aria-label="kontak rental mobil kupang"
-                            class="bg-white lg:w-14 w-10 h-10 lg:h-14 rounded-full flex items-center justify-center">
+                        <span href="#contact" title="kontak rental mobil kupang" aria-label="kontak rental mobil kupang"
+                            class="bg-cream lg:w-14 w-10 h-10 lg:h-14 rounded-full flex items-center justify-center">
                             <svg aria-label="icon-telp" class="lg:w-8 w-5 h-5 lg:h-8 text-gray-800" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
                                 <path
                                     d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z" />
                             </svg>
-                        </a>
-                        <span class="cursor-pointer">Contact Us</span>
-                    </div>
+                        </span>
+                        <span class="cursor-pointer font-semibold text-gray-800">Contact Us</span>
+                    </a>
                 </div>
             </div>
             <!--Right Col-->

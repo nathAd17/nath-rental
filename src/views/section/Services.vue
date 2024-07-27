@@ -63,7 +63,7 @@
                         <p class="mb-2 text-xs font-semibold text-sky-900 capitalize">IN CITY/SELF DRIVE</p>
 
                         <Button label="Booking" @click="showModal(car)"
-                            class="bg-cream hover:bg-creamhover text-gray-100 font-poppins py-0 text-base" :pt="{root: 'py-2 rounded-t-md'}"/>
+                            class="bg-primary hover:bg-primaryhover text-gray-100 font-poppins py-0 text-base" :pt="{root: 'py-2 rounded-t-md'}"/>
                     </div>
                 </div>
                 <Dialog v-model:visible="mobil" modal header="Car Reservation"

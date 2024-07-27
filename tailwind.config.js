@@ -10,12 +10,14 @@ export default {
     },
     extend: {
       backgroundColor: {
-        cream: "#04e762",
-        creamhover: "#04b84e",
+        primary: "#04e762",
+        primaryhover: "#04b84e",
+        cream: "#FFFFDD",
+        creamhover: "#ededca",
       },
       colors: {
-        cream: "#04e762",
-      }
+        primary: "#04e762",
+      },
     },
   },
   plugins: [],

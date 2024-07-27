@@ -24,7 +24,7 @@
                 <div class="w-full relative z-10 max-w-2xl lg:mt-0 lg:w-5/12 px-2 md:px-4">
                     <div data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="200"
                         class="flex flex-col items-start m-0 justify-start p-4 bg-white shadow-2xl rounded-xl relative">
-                        <form action="../src/pengunjung.php" class="w-full z-50" method="post">
+                        <form action="" class="w-full z-50" method="post">
                             <div class="flex items-center p-2 mb-4 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50"
                                 role="alert">
                                 <svg class="hidden sm:block flex-shrink-0 inline w-4 h-4 me-3" aria-hidden="true"
